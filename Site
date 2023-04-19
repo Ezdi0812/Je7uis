@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Je7uis - профессиональный фотограф</title>
+  <link rel="stylesheet" href="style.css"> <!-- Подключение стилей (предполагается, что файл стилей находится в том же каталоге и имеет имя "style.css") -->
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать на сайт Je7uis</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Профессиональный фотограф Je7uis</h2>
+      <p>Текст главной страницы</p>
+    </section>
+    <section id="portfolio">
+      <h2>Портфолио</h2>
+      <p>Текст страницы портфолио</p>
+      <ul>
+        <li><img src="portfolio1.jpg" alt="Фото из портфолио"></li> <!-- Пример добавления фотографий из портфолио с использованием тега <img> -->
+        <li><img src="portfolio2.jpg" alt="Фото из портфолио"></li>
+        <li><img src="portfolio3.jpg" alt="Фото из портфолио"></li>
+      </ul>
+    </section>
+    <section id="services">
+      <h2>Услуги</h2>
+      <p>Текст страницы услуг</p>
+      <form action="contact.php" method="post"> <!-- Пример формы для загрузки фото с услугами и ценами, а также отправки данных на сервер -->
+        <label for="photo">Загрузите фото:</label>
+        <input type="file" id="photo" name="photo">
+        <label for="price">Цена:</label>
+        <input type="text" id="price" name="price">
+        <input type="submit" value="Отправить">
+      </form>
+    </section>
+    <section id="contact">
+      <h2>Контакты</h2>
+      <p>Контактная информация</p>
+      <ul>
+        <li>Email: <a href="mailto:info@je7uis.com">info@je7uis.com</a></li>
+        <li>Телефон: +7 123 456 7890</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Авторские права &copy; Год вашего сайта.
